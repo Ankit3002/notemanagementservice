@@ -19,7 +19,7 @@ public interface NoteService {
     Note getNote(String id);
 
     // method to delete a particular note from the database...
-    void deleteNote(String id);
+    String deleteNote(String id);
 
     String createNote(createNoteDto dto);
 

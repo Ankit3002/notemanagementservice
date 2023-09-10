@@ -48,9 +48,9 @@ public class NoteController {
 
     // delete the note record...
     @PostMapping("/{noteId}")
-    public void DeleteNote(@PathVariable("noteId") String id)
+    public String DeleteNote(@PathVariable("noteId") String id)
     {
-        noteService.deleteNote(id);
+        return noteService.deleteNote(id);
     }
 
     // create the note ...

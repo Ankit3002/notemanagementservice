@@ -54,8 +54,9 @@ public class NoteServiceImpl implements NoteService{
     }
 
     @Override
-    public void deleteNote(String id) {
+    public String deleteNote(String id) {
         noteRepository.deleteById(id);
+        return id;
     }
 
     @Override
