@@ -1,8 +1,7 @@
 package com.notetakingapp.notemanagement.entity;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,9 +12,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class note {
+@Table(name = "note_table")
+public class Note {
     @Id
     private String id;
+    @Column(nullable = false)
     private String heading;
     private String message;
 
