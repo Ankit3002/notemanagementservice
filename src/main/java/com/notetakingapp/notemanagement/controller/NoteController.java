@@ -43,7 +43,7 @@ public class NoteController {
         {
             return note_id;
         }
-        return null;
+        return "null";
     }
 
     // delete the note record...
