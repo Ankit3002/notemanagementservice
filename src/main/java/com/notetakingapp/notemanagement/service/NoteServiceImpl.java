@@ -64,7 +64,7 @@ public class NoteServiceImpl implements NoteService{
         Note note_value = createNoteMapper.ConvertCreateDtoToEntity(dto);
         note_value.setId(UUID.randomUUID().toString());
         Note savedNote = noteRepository.save(note_value);
-        if(savedNote.getId().equals(dto.getId()))
+        if(savedNote.getId().equals(note_value.getId()))
         {
             return savedNote.getId();
         }

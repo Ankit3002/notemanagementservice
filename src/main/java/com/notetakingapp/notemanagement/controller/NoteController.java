@@ -32,7 +32,11 @@ public class NoteController {
     @GetMapping("/{noteId}")
     public Note getNote(@PathVariable("noteId") String id){
         Note note_value = noteService.getNote(id);
-        return note_value;
+//        return note_value;
+        if(note_value.getId().equals(id))
+            return note_value;
+        else
+            return null;
     }
 
     // update the note over here ...
@@ -43,14 +47,18 @@ public class NoteController {
         {
             return note_id;
         }
-        return "null";
+        return null;
     }
 
     // delete the note record...
     @PostMapping("/{noteId}")
     public String DeleteNote(@PathVariable("noteId") String id)
     {
-        return noteService.deleteNote(id);
+        String deleted_id = noteService.deleteNote(id);
+        if(deleted_id.equals(id))
+            return deleted_id;
+        else
+            return null;
     }
 
     // create the note ...
@@ -58,7 +66,7 @@ public class NoteController {
     public String CreateNote(@RequestBody createNoteDto dto)
     {
         String id =  noteService.createNote(dto);
-        if(id.equals(dto.getId()))
+        if(id != null)
         {
             return id;
         }

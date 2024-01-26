@@ -19,6 +19,4 @@ public class Note {
     @Column(nullable = false)
     private String heading;
     private String message;
-
-
 }
