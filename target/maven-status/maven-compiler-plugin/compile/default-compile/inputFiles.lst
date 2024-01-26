@@ -1,0 +1,10 @@
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/mapper/UpdateNoteMapper.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/service/NoteService.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/mapper/CreateNoteMapper.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/service/NoteServiceImpl.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/repository/NoteRepository.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/entity/Note.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/dto/createNoteDto.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/controller/NoteController.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/dto/updateNoteDto.java
+/media/ankit/Work/Projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/NotemanagementserviceApplication.java
