@@ -1,0 +1,6 @@
+com/notetakingapp/notemanagement/service/UserServiceImpl.class
+com/notetakingapp/notemanagement/entity/User$UserBuilder.class
+com/notetakingapp/notemanagement/controller/UserController.class
+com/notetakingapp/notemanagement/service/UserService.class
+com/notetakingapp/notemanagement/entity/User.class
+com/notetakingapp/notemanagement/repository/UserRepository.class

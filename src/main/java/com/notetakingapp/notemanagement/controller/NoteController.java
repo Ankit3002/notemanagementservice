@@ -32,7 +32,6 @@ public class NoteController {
     @GetMapping("/{noteId}")
     public Note getNote(@PathVariable("noteId") String id){
         Note note_value = noteService.getNote(id);
-//        return note_value;
         if(note_value.getId().equals(id))
             return note_value;
         else
