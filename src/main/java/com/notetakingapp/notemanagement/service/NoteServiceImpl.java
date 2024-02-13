@@ -56,7 +56,7 @@ public class NoteServiceImpl implements NoteService{
         }
         else
         {
-            return "Not Exist";
+            return "failure";
         }
     }
 
@@ -81,7 +81,7 @@ public class NoteServiceImpl implements NoteService{
             return "success";
         }
 
-        return "doesn't exist";
+        return "failure";
     }
 
     @Override
@@ -97,7 +97,7 @@ public class NoteServiceImpl implements NoteService{
         }
         else
         {
-            return "User don't exist for the note";
+            return "failure";
         }
 
     }
