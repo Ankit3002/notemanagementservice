@@ -1,14 +1,15 @@
 package com.notetakingapp.notemanagement.entity;
 
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Data
@@ -18,8 +19,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "user_table")
 public class User {
     @Id
-    private String id;
-    @Column(nullable = false)
     private String name;
     @Column(nullable = false)
     private String password;

@@ -2,6 +2,7 @@ package com.notetakingapp.notemanagement.mapper;
 
 import com.notetakingapp.notemanagement.dto.createNoteDto;
 import com.notetakingapp.notemanagement.entity.Note;
+import com.notetakingapp.notemanagement.entity.User;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -14,7 +15,7 @@ public class CreateNoteMapper {
         note_value.setHeading(dto.getHeading());
         note_value.setMessage(dto.getMessage());
         note_value.setId(dto.getId());
-
+        note_value.setUser(dto.getUser());
         return note_value;
     }
 

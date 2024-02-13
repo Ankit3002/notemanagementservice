@@ -9,8 +9,9 @@ import java.util.List;
 
 public interface UserService {
     String createUser(User user);
-    String deleteUser(String id);
+    void deleteUser(String id);
 
     String signInUser(User user);
+
 
 }

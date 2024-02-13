@@ -3,6 +3,8 @@ package com.notetakingapp.notemanagement.service;
 import com.notetakingapp.notemanagement.dto.createNoteDto;
 import com.notetakingapp.notemanagement.dto.updateNoteDto;
 import com.notetakingapp.notemanagement.entity.Note;
+//import com.notetakingapp.notemanagement.entity.Note;
+import com.notetakingapp.notemanagement.entity.User;
 
 import java.util.List;
 
@@ -22,5 +24,7 @@ public interface NoteService {
     String deleteNote(String id);
 
     String createNote(createNoteDto dto);
-
+    
+    // method to fetch all the notes related to particular user ...
+    List<Note> getAllNoteUser(User user);
 }

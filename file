@@ -1,0 +1,105 @@
+.
+├── Dockerfile
+├── file
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── run.sh
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── notetakingapp
+│   │   │           └── notemanagement
+│   │   │               ├── controller
+│   │   │               │   ├── NoteController.java
+│   │   │               │   └── UserController.java
+│   │   │               ├── dto
+│   │   │               │   ├── createNoteDto.java
+│   │   │               │   └── updateNoteDto.java
+│   │   │               ├── entity
+│   │   │               │   ├── Note.java
+│   │   │               │   └── User.java
+│   │   │               ├── mapper
+│   │   │               │   ├── CreateNoteMapper.java
+│   │   │               │   └── UpdateNoteMapper.java
+│   │   │               ├── NotemanagementserviceApplication.java
+│   │   │               ├── repository
+│   │   │               │   ├── NoteRepository.java
+│   │   │               │   └── UserRepository.java
+│   │   │               └── service
+│   │   │                   ├── NoteServiceImpl.java
+│   │   │                   ├── NoteService.java
+│   │   │                   ├── UserServiceImpl.java
+│   │   │                   └── UserService.java
+│   │   └── resources
+│   │       ├── application-dev.properties
+│   │       ├── application-prod.properties
+│   │       ├── application.properties
+│   │       └── college_server.jks
+│   └── test
+│       └── java
+│           └── com
+│               └── notetakingapp
+│                   └── notemanagement
+│                       └── NotemanagementserviceApplicationTests.java
+└── target
+    ├── classes
+    │   ├── application-dev.properties
+    │   ├── application-prod.properties
+    │   ├── application.properties
+    │   ├── college_server.jks
+    │   └── com
+    │       └── notetakingapp
+    │           └── notemanagement
+    │               ├── controller
+    │               │   ├── NoteController.class
+    │               │   └── UserController.class
+    │               ├── dto
+    │               │   ├── createNoteDto.class
+    │               │   └── updateNoteDto.class
+    │               ├── entity
+    │               │   ├── Note$NoteBuilder.class
+    │               │   ├── Note.class
+    │               │   ├── User$UserBuilder.class
+    │               │   └── User.class
+    │               ├── mapper
+    │               │   ├── CreateNoteMapper.class
+    │               │   └── UpdateNoteMapper.class
+    │               ├── NotemanagementserviceApplication.class
+    │               ├── repository
+    │               │   ├── NoteRepository.class
+    │               │   └── UserRepository.class
+    │               └── service
+    │                   ├── NoteService.class
+    │                   ├── NoteServiceImpl.class
+    │                   ├── UserService.class
+    │                   └── UserServiceImpl.class
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── maven-archiver
+    │   └── pom.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── notemanagementservice-0.0.1-SNAPSHOT.jar
+    ├── notemanagementservice-0.0.1-SNAPSHOT.jar.original
+    ├── surefire-reports
+    │   ├── com.notetakingapp.notemanagement.NotemanagementserviceApplicationTests.txt
+    │   └── TEST-com.notetakingapp.notemanagement.NotemanagementserviceApplicationTests.xml
+    └── test-classes
+        └── com
+            └── notetakingapp
+                └── notemanagement
+                    └── NotemanagementserviceApplicationTests.class
+
+46 directories, 57 files

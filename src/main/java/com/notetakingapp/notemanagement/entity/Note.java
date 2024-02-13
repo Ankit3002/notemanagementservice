@@ -19,7 +19,7 @@ public class Note {
     @Column(nullable = false)
     private String heading;
     private String message;
-
-    @OneToOne(targetEntity = User.class)
-    private String user_id;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 }
