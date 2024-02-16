@@ -14,6 +14,7 @@ public class UpdateNoteMapper {
         note_value.setId(dto.getId());
         note_value.setHeading(dto.getHeading());
         note_value.setMessage(dto.getMessage());
+        note_value.setUser(dto.getUser());
 
         return note_value;
     }

@@ -1,0 +1,17 @@
+com/notetakingapp/notemanagement/service/UserServiceImpl.class
+com/notetakingapp/notemanagement/NotemanagementserviceApplication.class
+com/notetakingapp/notemanagement/entity/Note$NoteBuilder.class
+com/notetakingapp/notemanagement/service/NoteServiceImpl.class
+com/notetakingapp/notemanagement/mapper/UpdateNoteMapper.class
+com/notetakingapp/notemanagement/entity/User$UserBuilder.class
+com/notetakingapp/notemanagement/mapper/CreateNoteMapper.class
+com/notetakingapp/notemanagement/dto/updateNoteDto.class
+com/notetakingapp/notemanagement/controller/UserController.class
+com/notetakingapp/notemanagement/dto/createNoteDto.class
+com/notetakingapp/notemanagement/controller/NoteController.class
+com/notetakingapp/notemanagement/entity/Note.class
+com/notetakingapp/notemanagement/service/UserService.class
+com/notetakingapp/notemanagement/entity/User.class
+com/notetakingapp/notemanagement/service/NoteService.class
+com/notetakingapp/notemanagement/repository/NoteRepository.class
+com/notetakingapp/notemanagement/repository/UserRepository.class

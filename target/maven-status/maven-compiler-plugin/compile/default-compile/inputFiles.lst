@@ -1,0 +1,15 @@
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/service/NoteServiceImpl.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/entity/User.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/repository/NoteRepository.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/entity/Note.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/service/NoteService.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/dto/createNoteDto.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/controller/UserController.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/NotemanagementserviceApplication.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/mapper/CreateNoteMapper.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/mapper/UpdateNoteMapper.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/service/UserServiceImpl.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/service/UserService.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/dto/updateNoteDto.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/repository/UserRepository.java
+/home/ankit/Desktop/Personal_projects/notemanagementservice/src/main/java/com/notetakingapp/notemanagement/controller/NoteController.java

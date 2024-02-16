@@ -19,4 +19,7 @@ public class Note {
     @Column(nullable = false)
     private String heading;
     private String message;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 }
